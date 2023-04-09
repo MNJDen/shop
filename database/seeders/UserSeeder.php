@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'id' => 2,
+            'id' => 1,
             'name' => "Macel Admin",
             'email' => "fornalezamaricel@gmail.com",
             'email_verified_at' => Carbon::now(),
